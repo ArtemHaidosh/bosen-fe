@@ -2,8 +2,8 @@
     <div ref="download">
         <header>
             <div class="header-text">
-                <h1>Realicity</h1>
-                <h2>Reality & Financie</h2>
+                <h1>Bosen Group</h1>
+                <h2>Najlepšia realitná kancelária</h2>
             </div>
         </header>
 
@@ -17,7 +17,7 @@
                 <!-- мне нужно создать 4 кнопки полукругом с разными иконками -->
                 <div class="buttons" ref="lol">
                     <button class="btn" @click="downloadPDF"><i class="fas fa-download"></i></button>
-                    <a href="https://realicity.sk/" target="_blank"><button class="btn"><i
+                    <a href="https://www.bosen.sk/" target="_blank"><button class="btn"><i
                                 class="fas fa-globe"></i></button></a>
                     <div>
                         <button @click="isPopupVisible = true" class="btn"><i class="fas fa-qrcode"></i></button>
@@ -25,7 +25,7 @@
                             <div class="popup-content">
                                 <span class="close" @click="isPopupVisible = false">&times;</span>
                                 <h3>Scan QR Code</h3>
-                                <qrcode-canvas :background="'#b6906f'" :foreground="'#000'" :value="url"></qrcode-canvas>
+                                <qrcode-canvas :background="'#fff'" :foreground="'#000'" :value="url"></qrcode-canvas>
                                 <p>{{ url }}</p>
                             </div>
                         </div>
@@ -49,53 +49,65 @@
                     <li><i class="fas fa-map special" ></i> {{ user.address }}</li>
                 </ul>
                 <div class="text">
+                    <h2>O nás</h2>
 
-                    <p>Náš tím skúsených maklérov a finančných 
-                        poradcov poskytuje profesionálne služby v 
-                        oblasti predaja, kúpy a prenájmu 
-                        nehnuteľností. <br>
-                        
-                       <br> S namy investujete do svojej budúcnosti s 
-                        istotou a dôverou.</p>
-                    </div>
+                 <p>„Veríme, že náš výnimočný prístup, vytrvalosť a zmysel pre dizajn sú základnými prvkami pri vytváraní špičkovej služby. 
+                    Sme hrdí na prácu, ktorú robíme a na klientov, ktorých zastupujeme“<br>
+
+                    Bosen Real Estate Group je renomovanou realitnou kanceláriou na slovenskom realitnom trhu od roku 2014 s počtom viac ako 80 realitných maklérov. 
+                    Sme progresívnou firmou, ktorá prináša inovatívne riešenia v prípade, že sa jedná o kúpu, predaj alebo prenájom nehnuteľnosti. 
+                    Naša realitná kancelária pôsobí na celom území Slovenskej republiky s pobočkami v mestách Bratislava, Galanta, Lučenec, Malacky, Nitra, Šamorín a Trenčín.
+                     V ponuke máme viac ako 500 nehnuteľností a prekročili sme hranicu 1200 úspešne realizovaných realitných obchodov v objeme viac ako 320 miliónov eur.</p><br>
+                </div>
     <br><br>
     <div>
     <div class="header-text">
-        <h1>Realicity</h1>
-        <p class="position">Aktuálna ponuka</p>
+        <h1>NAŠA PONUKA</h1>
+        <p class="position">Nehnuteľností | Novostavieb </p>
         <div class="img">
-        <a href="https://realicity.sk/nehnutelnosti"><img src="https://i.ibb.co/xstSzQ0/ap.png" alt="ap"></a>
+        <a href="https://www.bosen.sk/nehnutelnosti"><img src="https://i.ibb.co/QXSZ1Lq/ponuka-Bosen.png" alt="ponuka-Bosen"></a>
     </div>
-    <a href="https://realicity.sk/nehnutelnosti" style="color: var(--orange)">Click to open the link...</a>
+    <a href="https://www.bosen.sk/nehnutelnosti" style="color: var(--orange)">Click to open the link...</a>
+<br>
+<br>
 </div>
             </div>
-            <div class="sluzby">
-                <h2>Naše služby:</h2>
+            <div class="partneri">
                 
-                <ul>
-                    <h3>NEHNUTEĽNOSTI</h3>
-                    <li>Nastavenie stratégie predaja</li>
-                    <li>Homestaging</li>
-                    <li>Fotografie / Video obhliadka</li>
-                    <li>Sociálny marketing</li>
-                    <li>Reklama</li>
-                    <li>Právne služby</li>
-                </ul><br>
-                <ul>
-                    <h3>FINANCIE</h3>
-                    <li>Hypotekárne poradenstvo</li>
-                    <li>Predčasné splatenie hypotéky</li>
-                    <li>Poistenie nehnuteľnosti</li>
-                    <li>Životné poistenie a poistenie úveru</li>
-                    <li>Pravidelné investovanie</li>
-                    <li>Jednorazové investovanie</li>
-                </ul>
-            </div>
-        </div>
+                <div class="textF">
+                    <h2>Partneri</h2>
+                    <p>Našim cieľom je byť realitnou kanceláriou na najvyššej možnej úrovni, práve preto spolupracujeme len s overenými partnermi s dlhoročnými skúsenosťami vo svojom obore.
+                        V prípade spolupráce s našimi partnermi získate výhodné podmienky a nadštandardný prístup.
+                        Zabezpečíme Vám všetko "pod jednou strechou" tak, aby ste mali čo najmenej starostí.</p>
+                        <ul>
+                           <a href="https://www.bosen.sk/partneri"><img src="https://i.ibb.co/0XNnwF8/p1.jpg" alt="p1" border="0"></a>
+                           <a href="https://www.bosen.sk/partneri"><img src="https://i.ibb.co/zsSTRDc/p2.jpg" alt="p2" border="0"></a>
+                           <a href="https://www.bosen.sk/partneri"><img src="https://i.ibb.co/f8d6V2d/p3.jpg" alt="p3" border="0"></a>
+                           <a href="https://www.bosen.sk/partneri"><img src="https://i.ibb.co/dKnmbSw/p4.jpg" alt="p4" border="0"></a>
+                        
+                           <a href="https://www.bosen.sk/partneri"><img src="https://i.ibb.co/XWqR0Zw/p6.jpg" alt="p6" border="0"></a>
+                           <a href="https://www.bosen.sk/partneri"><img src="https://i.ibb.co/CJZXwYT/p7.jpg" alt="p7" border="0"></a>
+                           <a href="https://www.bosen.sk/partneri"><img src="https://i.ibb.co/zs2wL4R/p8.jpg" alt="p8" border="0"></a>
+                           <a href="https://www.bosen.sk/partneri"><img src="https://i.ibb.co/vBgCBJg/p9.jpg" alt="p9" border="0"></a>
 
+                        </ul>
+                    </div>
+            </div>
+            <div class="contact">
+                <h2>Kontakt</h2>
+                <img src="https://i.ibb.co/ZLnYVhB/image.png" alt="image" border="0"><br>
+                <p>+421 910 777 796</p><br>
+                <p>Ružinovská 42, 821 03 <br>
+                    BRATISLAVA</p>
+                    <a class="emphasis" href="mailto:info@bosen.sk"><p class="emphasis">info@bosen.sk</p></a>
+                </div>
+            </div>
+
+<br><br><br>
 
         <footer>
-                <p>© 2024 Realicity</p>
+                <p>© 2024 Bosen Real Estate Group</p><br>
+                <p>Created by KHH team: Kozlov, Haidosh, Hryshchenko</p>
         </footer>
         </div>
     </div>
@@ -208,8 +220,10 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Kameron:wght@400..700&display=swap');
 @import "../assets/main.css";
 
-body {
-    width: 100%;
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 .user {
@@ -219,7 +233,12 @@ body {
     /* justify-content: center; */
     align-items: center;
     flex-direction: column;
-    background-color: var(--grey);
+   
+}
+
+.user p{
+    max-width: 320;
+    word-break: break-word;
 }
 
 header {
@@ -230,7 +249,7 @@ header {
     background-color: #fff;
     background-blend-mode: multiply;
     background-size: cover;
-    color: white;
+    color: #fff;
     padding: 1em;
     align-items: center;
     height: 50vh;
@@ -239,6 +258,7 @@ header {
 .buttons {
     padding: 2em;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 4em;
@@ -255,9 +275,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--orange);
+    background-color:  #fff;
     /* Цвет фона */
-    color: white;
+    color:  #111;
     /* Цвет иконки */
     border: none;
     font-size: 24px;
@@ -266,12 +286,12 @@ header {
     transition: background-color 0.3s ease;
 }
 
+
 .btn:hover {
-    background-color: rgb(135, 108, 83);
+    background-color: #FFC600;
     ;
     /* Цвет фона при наведении */
 }
-
 .header-img {
     display: flex;
     justify-content: center;
@@ -280,12 +300,19 @@ header {
 
 .header-img img {
     object-fit: cover;
-    border-radius: 50%;
-    width: 250px;
+    width: 300px;
     height: 300px;
-    border-width: 20px;
-    border-color: rgba(255, 255, 255, 0.250);
-
+    max-width: 100%;
+    border-radius: 50%;
+    padding: 20px; /* Заменяем border на padding */
+    background: 
+        linear-gradient(to bottom, #00000031, #ffffff28) /* Градиент фона */
+        padding-box, /* Применяем градиент только к padding области */
+        linear-gradient(to bottom, #000000, #ffffff60) /* Тот же градиент для border */
+        border-box;
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    border: 20px solid transparent; /* Прозрачная граница для отображения градиента */
 }
 .img {
     
@@ -295,7 +322,7 @@ header {
 }
 
 header .header-text {
-    color: white;
+    color: #fff;
     text-align: center;
     display: block;
     margin: 0;
@@ -313,7 +340,7 @@ header .header-text h1 {
 header .header-text h2 {
     font-family: "Dancing Script", cursive;
     font-size: 4em;
-    color: var(--orange);
+    color:  #FFC600;
     margin-top: 0px;
 }
 
@@ -325,10 +352,15 @@ header .header-text h2 {
     /* align-items: center; */
     text-align: center;
     margin: 0 auto;
-    padding: 0;
-    color: white;
+    color: #fff;
     position: relative;
     min-height: 100vh;
+    background-color:#111;
+    max-width: 100%;
+    padding: 20px;
+  box-sizing: border-box;
+  flex-direction: column;
+
 }
 
 .container .user h2 {
@@ -343,7 +375,7 @@ header .header-text h2 {
     margin: 0;
     padding: 0;
     font-weight: 500;
-    color: var(--orange);
+    color: #FFC600;
 }
 
 
@@ -361,24 +393,24 @@ header .header-text h2 {
 .custom-list li .special {
     margin-right: 30px;
     font-size: 1.7em;
-    color: var(--orange);
+    color: #fff;
 }
 
 footer {
-    background-color: var(--orange);
+    background-color: #111;
     color: white;
     text-align: center;
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 2.5rem;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
 }
 
 .popup {
-    color: black;
+    color: #111;
     position: fixed;
     top: 0;
     left: 0;
@@ -393,17 +425,18 @@ footer {
 
 /* Popup content */
 .popup-content {
-    background-color: var(--grey-popup);
+    background-color:  #FFC600;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
     position: relative;
-    color: var(--orange);
+    color: #111;
 }
 
-.sluzby{
-    text-align: left;
-    padding: 5px;
+.partneri{
+    color: #111;
+    background-color: #fff;
+    padding: 20px;
 }
 
 .share-popup {
@@ -422,13 +455,13 @@ footer {
 
 /* Popup content */
 .share-popup-content {
-    background-color: var(--grey-popup);
+    background-color:  #FFC600;
     padding: 30px;
     border-radius: 10px;
     text-align: center;
     position: relative;
     width: 30%;
-    color: var(--orange);
+    color: #111;
 }
 
 .share-popup-content textarea {
@@ -436,9 +469,9 @@ footer {
     height: 1.8em;
     text-align: center;
     resize: none;
-    border: 1px solid var(--orange);
-    background-color: var(--grey);
-    color: var(--orange);
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #111;
 }
 
 /* Close button */
@@ -460,64 +493,51 @@ footer {
     cursor: pointer;
 }
 
-/* Для мобильных устройств с шириной экрана меньше 768px */
-@media only screen and (max-width: 768px) {
-    header {
-        height: auto;
-        padding: 1em;
-        background-size: cover; /* Исправление фона */
-        background-position: center; /* Центрируем фон */
-        background-repeat: no-repeat; /* Отключаем повторение фона */
-    }
 
-    header .header-text h1 {
-        font-size: 3em;
-    }
-
-    header .header-text h2 {
-        font-size: 2em;
-    }
-
-    .header-img img {
-        width: 150px;
-        height: 150px;
-        margin-top: -10em;
-    }
-
-    .buttons {
-        gap: 1em;
-        padding: 1em;
-        justify-content: space-around; /* Распределяем кнопки по всей ширине */
-    }
-
-    .btn {
-        width: 50px;
-        height: 50px;
-        font-size: 18px;
-    }
-
-    .container {
-        padding: 1em;
-        min-height: auto;
-    }
-
-    .custom-list {
-        font-size: medium;
-    }
-
-    .custom-list li {
-        font-size: 1.2em;
-    }
-
-    footer {
-        font-size: 0.8em;
-    }
-
-    .text {
-        text-align: center;
-        position: relative;
-        max-width: 320px; 
-        word-break: break-word;
+.user .textF {
+        display: block;
+        justify-content: center;
         margin-top: 1.2em;
+        background-color: #fff;
+        color: #111;
+        align-items: center;
     }
+
+.textF p{
+    text-align: center;
+        max-width: 320;
+        word-break: break-word;
+        align-items: center;
+}
+
+.text{
+    background-color: #fff;
+    color: #111;
+    text-align: center;
+    max-width: 320;
+    word-break: break-word;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.contact {
+    margin-top: 1em; /* Отступ сверху */
+    padding: 1rem;
+  
+    color: white;
+    text-align: center;
+    flex-basis: auto;
+}
+
+.emphasis {
+    color:#FFC600;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.emphasis:hover {
+    text-decoration: underline;
+}
+
+
 </style>
